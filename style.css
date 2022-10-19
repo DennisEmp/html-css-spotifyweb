@@ -1,5 +1,7 @@
 * {
     margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
     font-family: Montserrat;
 }
 
@@ -42,4 +44,22 @@
 .left-menu p {
     color: #fff;
     font-family: Montserrat;
+}
+
+.left-menu ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.list-menu {
+    display: flex;
+    flex-direction: row;
+}
+
+.list-menu {
+    color: #fff;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
 }
