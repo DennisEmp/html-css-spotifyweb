@@ -115,7 +115,7 @@
 
 .navbar-bottom {
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
 }
 
 .song {
@@ -178,13 +178,37 @@
     border-radius: 10px;
 }
 
-.liberbar2 {
+.linebar2 {
     width: 90px;
     height: 5px;
     background-color: #fff;
+    border-radius: 10px;
+    position: absolute;
 }
 
 .song-time {
     color: #fff;
     font-size: 10px;
+}
+
+.rightline {
+    color: #fff;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.volume-line {
+    color: #535353;
+    width: 100px;
+    height: 3px;
+    border-radius: 10px;
+}
+
+.volume-line-small {
+    color: #fff;
+    width: 20px;
+    height: 3px;
+    border-radius: 10px;
+    position: absolute;
 }
