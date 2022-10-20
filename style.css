@@ -141,4 +141,50 @@
     color: #fff;
     font-size: 40px;
     width: 100px;
+    font-size: 16px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+    gap: 20px;
+}
+
+.timeline {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.line {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.icone {
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+    gap: 50px;
+    margin-bottom: 15px;
+}
+
+.linebar {
+    width: 400px;
+    height: 5px;
+    background-color: #535353;
+    border-radius: 10px;
+}
+
+.liberbar2 {
+    width: 90px;
+    height: 5px;
+    background-color: #fff;
+}
+
+.song-time {
+    color: #fff;
+    font-size: 10px;
 }
